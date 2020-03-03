@@ -7,7 +7,7 @@ function cleanObject(obj) {
             }
         }
     }
-    return obj;
+    return obj
 };
 
 module.exports = cleanObject;
