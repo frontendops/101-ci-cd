@@ -3,7 +3,7 @@ function cleanObject(obj) {
     for (let key in obj) {
         if (obj.hasOwnProperty(key)) {
             if (obj[key] === '' || typeof obj[key] === 'undefined') {
-                delete obj[key];
+                delete obj[key]
             }
         }
     }
